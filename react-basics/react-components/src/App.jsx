@@ -4,13 +4,14 @@ import viteLogo from '/vite.svg'
 import Counter from './comps/Counter'
 import './App.css'
 import CountryFlag from './comps/CountryFlag'
+import CountryFlagSearch from './comps/CountryFlagSearch'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <Counter/>
-      <CountryFlag/>
+      <CountryFlagSearch/>
     </>
   )
 }
