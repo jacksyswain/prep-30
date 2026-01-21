@@ -36,7 +36,7 @@ function CountryFlagSearch() {
             {loaddata.map((items)=>(
                 <div key={items.id} style={{border:"1px solid black"}}>
                     <h2>{items.name}</h2>
-                    <img src={items.flag} alt={items.name} />
+                    <img src={items.flag} height={60} alt={items.name} />
                 </div>
             ))}
 

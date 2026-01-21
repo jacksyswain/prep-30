@@ -5,13 +5,14 @@ import Counter from './comps/Counter'
 import './App.css'
 import CountryFlag from './comps/CountryFlag'
 import CountryFlagSearch from './comps/CountryFlagSearch'
+import Xform from './comps/Xform'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <Counter/>
-      <CountryFlagSearch/>
+      <Xform/>
     </>
   )
 }
