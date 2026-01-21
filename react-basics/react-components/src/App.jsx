@@ -6,13 +6,14 @@ import './App.css'
 import CountryFlag from './comps/CountryFlag'
 import CountryFlagSearch from './comps/CountryFlagSearch'
 import Xform from './comps/Xform'
+import Xdict from './comps/Xdict'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <Counter/>
-      <Xform/>
+      <Xdict/>
     </>
   )
 }
