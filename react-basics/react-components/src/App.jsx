@@ -7,13 +7,14 @@ import CountryFlag from './comps/CountryFlag'
 import CountryFlagSearch from './comps/CountryFlagSearch'
 import Xform from './comps/Xform'
 import Xdict from './comps/Xdict'
+import LeapYear from './comps/Leapyear'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <Counter/>
-      <Xdict/>
+      <LeapYear/>
     </>
   )
 }
