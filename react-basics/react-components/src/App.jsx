@@ -8,6 +8,7 @@ import CountryFlagSearch from './comps/CountryFlagSearch'
 import Xform from './comps/Xform'
 import Xdict from './comps/Xdict'
 import LeapYear from './comps/Leapyear'
+import Xcalculator from './comps/Xcalculator'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +16,7 @@ function App() {
     <>
       <Counter/>
       <LeapYear/>
+      <Xcalculator/>
     </>
   )
 }
