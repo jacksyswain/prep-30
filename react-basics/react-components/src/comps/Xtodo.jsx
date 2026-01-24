@@ -11,17 +11,18 @@ function Xtodo() {
   };
 
   return (
-    <div>
+    <div style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
       <h1>My Todo App</h1>
-
+     <div>
       <input
         type="text"
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
       <button onClick={handleAdd}>ADD</button>
+      </div>
 
-      <table border="1">
+      <table border="1" style={{width:"300px"}}>
         <thead>
           <tr>
             <th>S.No</th>
