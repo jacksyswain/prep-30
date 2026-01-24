@@ -9,14 +9,15 @@ import Xform from './comps/Xform'
 import Xdict from './comps/Xdict'
 import LeapYear from './comps/Leapyear'
 import Xcalculator from './comps/Xcalculator'
+import Xtodo from './comps/Xtodo'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <Counter/>
-      <LeapYear/>
-      <Xcalculator/>
+    
+      <Xtodo/>
     </>
   )
 }
